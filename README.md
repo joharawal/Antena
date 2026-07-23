@@ -5,6 +5,7 @@ Project Pembuatan Antena
    
 Proyek ini merupakan perancangan dan simulasi antena mikrostrip yang bekerja pada frekuensi 614 MHz dengan nilai Voltage Standing Wave Ratio (VSWR) mendekati 1. Antena ini dirancang untuk bekerja pada frekuensi 614 MHz, yang termasuk dalam pita Ultra High Frequency (UHF). Rentang frekuensi UHF banyak dimanfaatkan pada sistem komunikasi modern karena memiliki kemampuan propagasi yang baik dan mendukung pengiriman data maupun informasi dengan kualitas yang tinggi.
 
+
 cara kerja :
 
 
