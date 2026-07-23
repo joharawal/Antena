@@ -17,3 +17,15 @@ Cara realisasi antena :
 - export desain patch untuk dijadikan stiker untuk proses pembuatan PCB
 - Pembuatan PCB Antena
 
+
+>Antena Dipole
+
+Proyek ini merupakan perancangan dan simulasi antena dipole setengah gelombang (Half-Wave Dipole) menggunakan software CST Studio Suite. Antena dipole merupakan salah satu jenis antena paling sederhana dan paling banyak digunakan dalam bidang telekomunikasi karena memiliki konstruksi yang sederhana, mudah dibuat, serta memiliki karakteristik radiasi yang stabil.
+
+Antena dipole terdiri dari dua buah konduktor dengan panjang yang sama dan dipisahkan oleh titik pencatu (feed point) di bagian tengah. Ketika diberikan sinyal listrik berfrekuensi tinggi (Radio Frequency/RF), antena akan mengubah energi listrik menjadi gelombang elektromagnetik yang dipancarkan ke ruang bebas. Sebaliknya, saat menerima gelombang elektromagnetik, antena akan mengubahnya kembali menjadi sinyal listrik yang kemudian diproses oleh perangkat penerima.
+
+cara kerja :
+Prinsip kerja antena dipole didasarkan pada perubahan arus listrik bolak-balik berfrekuensi tinggi yang mengalir pada kedua elemen antena. Ketika arus RF mengalir dari titik pencatu menuju ujung kedua elemen, elektron di dalam konduktor akan bergerak bolak-balik sehingga menghasilkan medan listrik (Electric Field) dan medan magnet (Magnetic Field) yang berubah terhadap waktu. Perubahan kedua medan tersebut membentuk gelombang elektromagnetik yang kemudian dipancarkan ke ruang bebas.
+
+Pada saat antena digunakan sebagai penerima, proses yang terjadi adalah kebalikannya. Gelombang elektromagnetik yang datang akan menginduksi arus listrik pada kedua elemen antena sehingga menghasilkan sinyal listrik yang dapat diteruskan menuju rangkaian penerima.
+
