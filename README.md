@@ -1,33 +1,31 @@
 # Antena
-Project Pembuatan Antena
+Antenna Manufacturing Project
 
->Antena Mikrostrip
+>Microstrip Antenna
    
-Proyek ini merupakan perancangan dan simulasi antena mikrostrip yang bekerja pada frekuensi 614 MHz dengan nilai Voltage Standing Wave Ratio (VSWR) mendekati 1. Antena ini dirancang untuk bekerja pada frekuensi 614 MHz, yang termasuk dalam pita Ultra High Frequency (UHF). Rentang frekuensi UHF banyak dimanfaatkan pada sistem komunikasi modern karena memiliki kemampuan propagasi yang baik dan mendukung pengiriman data maupun informasi dengan kualitas yang tinggi.
+This project is the design and simulation of a microstrip antenna operating at a frequency of 614 MHz with a Voltage Standing Wave Ratio (VSWR) close to 1. This antenna is designed to operate at a frequency of 614 MHz, which is within the Ultra High Frequency (UHF) band. The UHF frequency range is widely used in modern communication systems due to its good propagation capabilities and support for high-quality data and information transmission.
+
+How it works:
+
+Microstrip antennas work by converting high-frequency electrical signals (radio frequency/RF) from a transmitter into electromagnetic waves that are radiated into space. When an RF signal is applied to the feed line, an electric current flows to the antenna patch, generating electric and magnetic fields. The continuous changes in these two fields create electromagnetic waves that are then radiated into the air.
+
+Conversely, when the antenna receives electromagnetic waves from the air, the process is reversed. The received electromagnetic waves are converted into electrical signals and transmitted to the receiver circuit.
+
+How to implement the antenna:
+- Open the CST file containing the finished microstrip antenna project
+- Adjust the antenna parameters to achieve the appropriate frequency and VSWR
+- Export the patch design to be used as a sticker for PCB manufacturing
+- PCB Antenna Manufacturing
 
 
-cara kerja :
+>Dipole Antenna
 
+This project is the design and simulation of a half-wave dipole antenna using CST Studio Suite software. Dipole antennas are one of the simplest and most widely used antenna types in telecommunications due to their simple construction, ease of manufacture, and stable radiation characteristics.
 
-Antena mikrostrip bekerja dengan mengubah sinyal listrik berfrekuensi tinggi (Radio Frequency/RF) yang berasal dari pemancar menjadi gelombang elektromagnetik yang          dipancarkan ke ruang bebas. Ketika sinyal RF diberikan pada saluran pencatu (feed line), arus listrik akan mengalir menuju patch antena dan menghasilkan medan listrik (Electric Field) serta medan magnet (Magnetic Field). Perubahan kedua medan tersebut secara terus-menerus membentuk gelombang elektromagnetik yang kemudian dipancarkan ke udara.
+A dipole antenna consists of two conductors of equal length separated by a feed point in the middle. When a high-frequency electrical signal (Radio Frequency (RF) is applied to it, the antenna converts the electrical energy into electromagnetic waves that are radiated into space. Conversely, when an electromagnetic wave is received, the antenna converts it back into an electrical signal, which is then processed by the receiving device.
 
-Sebaliknya, ketika antena menerima gelombang elektromagnetik dari udara, proses tersebut berlangsung secara terbalik. Gelombang elektromagnetik yang diterima akan diubah menjadi sinyal listrik dan diteruskan menuju rangkaian penerima (receiver).
+How it works:
+The working principle of a dipole antenna is based on the changing high-frequency alternating current flowing through the two antenna elements. When the RF current flows from the feed point to the ends of the two elements, electrons in the conductors move back and forth, generating electric and magnetic fields that vary with time. These changes in the two fields form electromagnetic waves that are then radiated into space.
 
-Cara realisasi antena :
-- Buka file CST yang berisi project antena mikrostrip yang sudah siap
-- atur parameter antena agar mendapatkan frekuensi dan vswr sesuai
-- export desain patch untuk dijadikan stiker untuk proses pembuatan PCB
-- Pembuatan PCB Antena
-
-
->Antena Dipole
-
-Proyek ini merupakan perancangan dan simulasi antena dipole setengah gelombang (Half-Wave Dipole) menggunakan software CST Studio Suite. Antena dipole merupakan salah satu jenis antena paling sederhana dan paling banyak digunakan dalam bidang telekomunikasi karena memiliki konstruksi yang sederhana, mudah dibuat, serta memiliki karakteristik radiasi yang stabil.
-
-Antena dipole terdiri dari dua buah konduktor dengan panjang yang sama dan dipisahkan oleh titik pencatu (feed point) di bagian tengah. Ketika diberikan sinyal listrik berfrekuensi tinggi (Radio Frequency/RF), antena akan mengubah energi listrik menjadi gelombang elektromagnetik yang dipancarkan ke ruang bebas. Sebaliknya, saat menerima gelombang elektromagnetik, antena akan mengubahnya kembali menjadi sinyal listrik yang kemudian diproses oleh perangkat penerima.
-
-cara kerja :
-Prinsip kerja antena dipole didasarkan pada perubahan arus listrik bolak-balik berfrekuensi tinggi yang mengalir pada kedua elemen antena. Ketika arus RF mengalir dari titik pencatu menuju ujung kedua elemen, elektron di dalam konduktor akan bergerak bolak-balik sehingga menghasilkan medan listrik (Electric Field) dan medan magnet (Magnetic Field) yang berubah terhadap waktu. Perubahan kedua medan tersebut membentuk gelombang elektromagnetik yang kemudian dipancarkan ke ruang bebas.
-
-Pada saat antena digunakan sebagai penerima, proses yang terjadi adalah kebalikannya. Gelombang elektromagnetik yang datang akan menginduksi arus listrik pada kedua elemen antena sehingga menghasilkan sinyal listrik yang dapat diteruskan menuju rangkaian penerima.
+When an antenna is used as a receiver, the reverse process occurs. Incoming electromagnetic waves induce electrical currents in both antenna elements, generating an electrical signal that can be transmitted to the receiving circuit.
 
